@@ -13,22 +13,22 @@ columns 3
 
 block:scope["standard"]:6
 
-terms["terms
+terms["<a href='https://github.com/officialgazette/announcement/blob/main/catalog.json'>terms
 catalog
 
-(JSON)"]:1
+(JSON)</a>"]:1
 space
-standard["types
+standard["<a href='https://github.com/officialgazette/announcement/blob/main/types.xsd'>types
 
-(XSD)"]
+(XSD)</a>"]
 
 end
 space:5
 
-config["configuration of
+config["<a href='https://github.com/officialgazette/announcement/blob/main/config-BP-default.json'>configuration of
 announcement type
 
-(JSON)"]:2
+(JSON)</a>"]:2
 
 space:4
 
