@@ -1,0 +1,23 @@
+{
+	"terms": [
+		{
+			"key": "notice",
+			"description": "Beschreibt die generelle Bekanntmachung eines Sachverhalts bzw. Geschäftsfalls"
+		}, {
+			"key": "constructionProject",
+			"description": "Geschäftsfall, beschreibt ein Bauprojekt"
+		}, {
+			"key": "projectFramer",
+			"description": "Beschreibt den Projektverfasser"
+		}, {
+			"key": "legalRemedy",
+			"description": "Genereller Begriff des Rechtsmittels"
+		}, {
+			"key": "deadline",
+			"description": "Bezeichnung für Frist im Allgemeinen"
+		}, {
+			"key": "pointOfContact",
+			"description": "Bezeichnung für Kontaktstelle im Allgemeinen"
+		}
+	]
+}
