@@ -1,4 +1,4 @@
-# Announcement model
+# Announcement Model
 The following sections describe the announcement model for a publication on ePublication.ch
 ```mermaid
 
@@ -44,18 +44,30 @@ config --"generates"--> schema
 
 The configuration is based on three artefacts:
 - The data types
-- The technical expressions
+- The terms catalog
 - The configuration of an announcement type
 
 Each announcement type (synonymous with entry form on the GUI) consists of various elements (representing one or more input fields on the form).
 
 **The data types**
 
+The data type set consists of complex and simple data types. Complex data types are:
+- person (summarises natural and legal persons)
+- natural person
+- legal person
+- address
+- dateFromTo
+
+Simple types are:
+- string
+- int
+- date
+- duration
+- time
+  
 The data type set is stored statically in the system and cannot be changed.
 
-The set of data types is 
-
-**The technical expresions**
+**The terms catalog**
 
 xx
 
