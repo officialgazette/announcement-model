@@ -1,4 +1,5 @@
-# announcement
+# Announcement
+The following manual describes how an announcement is configured on the ‘ePublication’ platform.
 ```mermaid
 
 %%{
