@@ -1,0 +1,226 @@
+{
+	"configuration": {
+		"announcementType": "BP10",
+		"gazette": "Amtsblatt-ZH",
+		"description": "Beschreibung des Meldungstyps",
+		"themes": "construction",
+		"languages": "DE, FR",
+		"publicationPrice": 20,
+		"publicityPeriod": 24,
+		"archiv": true,
+		"legalBasis": "http://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=700.1",
+		"organisationType": "court (Gerichte, Kantonale Verwaltung etc.)",
+		"livePublication": true,
+		"publicationDay": "Monday, Thuesday...",
+		"action(announcementPurpose?)": "notice",
+		"reaction(action?)": true,
+		"privacyRestrictions": true,
+		"businessCase": [
+			{
+				"category": {
+					"key": "constructionProject",
+					"type": null,
+					"label": {
+						"de": "Baugesuch",
+						"fr": "Demande d'autorisation de construire"
+					}
+				},
+				"elements": {
+					"element": [
+						{
+							"key": "projectAddress",
+							"type": "address",
+							"label": {
+								"de": "Projektstandort",
+								"fr": "Projektstandort FR"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": true,
+							"isPartOfTitle": true
+						}, {
+							"key": "projectFramer",
+							"type": "person",
+							"label": {
+								"de": "Projektverfasser",
+								"fr": "Projektverfasser FR"
+							},
+							"default": null
+						}, {
+							"key": "projectDescription",
+							"type": "string",
+							"label": {
+								"de": "Projektbeschreibung",
+								"fr": "Projektbeschreibung FR"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "legalRemedy",
+							"type": "string",
+							"label": {
+								"de": "Rechtsmittel",
+								"fr": "Rechtsmittel FR"
+							},
+							"default": "Die Pläne liegen während der Auflagefrist ..."
+						}, {
+							"key": "deadline",
+							"type": "duration",
+							"label": {
+								"de": "Einsprachefrist",
+								"fr": "Einsprachefrist FR"
+							},
+							"default": 20
+						}, {
+							"key": "pointOfContact",
+							"type": "address",
+							"label": {
+								"de": "Kontakt",
+								"fr": "Kontakt FR"
+							},
+							"default": null
+						}
+					]
+				}
+			}, {
+				"category": {
+					"key": "constructionProjectAppealDecision",
+					"type": null,
+					"label": {
+						"de": "Rekursentscheid zum Baugesuch",
+						"fr": "Décision sur recours concernant la demande d'autorisation de construire"
+					}
+				},
+				"elements": {
+					"element": [
+						{
+							"key": "projectAddress",
+							"type": "address",
+							"label": {
+								"de": "Projektstandort",
+								"fr": "Projektstandort FR"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": true,
+							"isPartOfTitle": true
+						}, {
+							"key": "projectFramer",
+							"type": "person",
+							"label": {
+								"de": "Projektverfasser",
+								"fr": "Projektverfasser FR"
+							},
+							"default": null
+						}, {
+							"key": "projectDescription",
+							"type": "string",
+							"label": {
+								"de": "Projektbeschreibung",
+								"fr": "Projektbeschreibung FR"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "legalRemedy",
+							"type": "string",
+							"label": {
+								"de": "Rechtsmittel",
+								"fr": "Rechtsmittel FR"
+							},
+							"default": "Die Pläne liegen während der Auflagefrist ..."
+						}, {
+							"key": "deadline",
+							"type": "duration",
+							"label": {
+								"de": "Einsprachefrist",
+								"fr": "Einsprachefrist FR"
+							},
+							"default": 20
+						}, {
+							"key": "pointOfContact",
+							"type": "address",
+							"label": {
+								"de": "Kontakt",
+								"fr": "Kontakt FR"
+							},
+							"default": null
+						}
+					]
+				}
+			}, {
+				"category": {
+					"key": "environmentalImpactReportDecision",
+					"type": null,
+					"label": {
+						"de": "Entscheid zum Umweltverträglichkeitsbericht",
+						"fr": "Décision sur rapport d'impact sur l'environnement"
+					}
+				},
+				"elements": {
+					"element": [
+						{
+							"key": "projectAddress",
+							"type": "address",
+							"label": {
+								"de": "Projektstandort",
+								"fr": "Projektstandort FR"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": true,
+							"isPartOfTitle": true
+						}, {
+							"key": "projectFramer",
+							"type": "person",
+							"label": {
+								"de": "Projektverfasser",
+								"fr": "Projektverfasser FR"
+							},
+							"default": null
+						}, {
+							"key": "projectDescription",
+							"type": "string",
+							"label": {
+								"de": "Projektbeschreibung",
+								"fr": "Projektbeschreibung FR"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "legalRemedy",
+							"type": "string",
+							"label": {
+								"de": "Rechtsmittel",
+								"fr": "Rechtsmittel FR"
+							},
+							"default": "Die Pläne liegen während der Auflagefrist ..."
+						}, {
+							"key": "deadline",
+							"type": "duration",
+							"label": {
+								"de": "Einsprachefrist",
+								"fr": "Einsprachefrist FR"
+							},
+							"default": 20
+						}, {
+							"key": "pointOfContact",
+							"type": "address",
+							"label": {
+								"de": "Kontakt",
+								"fr": "Kontakt FR"
+							},
+							"default": null
+						}
+					]
+				}
+			}
+		]
+	}
+}
