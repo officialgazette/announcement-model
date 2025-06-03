@@ -11,7 +11,7 @@ The following manual describes how an announcement is configured on the ‘ePubl
 block-beta
 columns 3
 
-block:scope[" "]
+block:scope["standard"]
 
 terms["terms
 catalog
