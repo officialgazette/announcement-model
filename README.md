@@ -47,9 +47,13 @@ The configuration is based on three artefacts:
 - The technical expressions
 - The configuration of an announcement type
 
+Each announcement type (synonymous with entry form on the GUI) consists of various elements (representing one or more input fields on the form).
+
 **The data types**
 
-xx
+The data type set is stored statically in the system and cannot be changed.
+
+The set of data types is 
 
 **The technical expresions**
 
