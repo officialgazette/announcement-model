@@ -1,1 +1,53 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) von Christian Müller (Staatssekretariat für Wirtschaft SECO) bearbeitet -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:eCH-0097="http://www.ech.ch/xmlns/eCH-0097/4" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:import namespace="http://www.ech.ch/xmlns/eCH-0097/4" schemaLocation="http://www.ech.ch/xmlns/eCH-0097/4/eCH-0097-4-0.xsd"/>
+	<xs:complexType name="person">
+		<xs:choice>
+			<xs:element name="legalPerson" type="legalPerson"/>
+			<xs:element name="naturalPerson" type="naturalPerson"/>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="legalPerson">
+		<xs:annotation>
+			<xs:documentation>Business rule: UID is mandatory under certain circumstances. See https://amtsblattportal.ch/static/uid_en.html</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element ref="eCH-0097:organisationIdentificationRoot"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="naturalPerson"/>
+	<xs:complexType name="address"/>
+	<xs:simpleType name="string">
+		<xs:annotation>
+			<xs:documentation>Distinction between single-line and multiline/textarea (whereas textarea can contain richtext)</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="int">
+		<xs:restriction base="xs:int"/>
+	</xs:simpleType>
+	<xs:simpleType name="url">
+		<xs:restriction base="xs:anyURI"/>
+	</xs:simpleType>
+	<xs:simpleType name="date">
+		<xs:restriction base="xs:date"/>
+	</xs:simpleType>
+	<xs:simpleType name="time">
+		<xs:restriction base="xs:boolean"/>
+	</xs:simpleType>
+	<xs:simpleType name="duration">
+		<xs:restriction base="xs:duration"/>
+	</xs:simpleType>
+	<xs:element name="dateFromTo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="von" type="xs:date"/>
+				<xs:element name="bis" type="xs:date"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="select">
+		<xs:restriction base="xs:boolean"/>
+	</xs:simpleType>
+</xs:schema>
