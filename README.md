@@ -1,4 +1,4 @@
-# Announcement
+# Announcement model
 The following manual describes how an announcement is configured on the ‘ePublication’ platform.
 ```mermaid
 
@@ -9,22 +9,32 @@ The following manual describes how an announcement is configured on the ‘ePubl
 }%%
 
 block-beta
-
-block:scope["Scope of standardization"]
-
 columns 3
-standard["Publication type"]:1
-space Terms["Tenant
-specific configuration"]
-space:3
-space space termDB[("
-Terms
-catalog*")]
+
+block:scope[" "]
+
+terms["terms
+catalog
+
+JSON"]:1
+space
+standard["basic types
+
+XSD"]
 
 end
+space:5
+
+config["configuration of
+announcement type
+
+JSON"]:1
+
+config --"consists of"--> standard
+config --"consists of"--> terms
 
 
 
-Terms --> standard
-termDB --> Terms
+
+
 ```
