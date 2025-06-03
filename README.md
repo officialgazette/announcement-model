@@ -18,7 +18,7 @@ catalog
 
 JSON"]:1
 space
-standard["basic types
+standard["types
 
 XSD"]
 
