@@ -1,5 +1,5 @@
 # Announcement model
-The following manual describes how an announcement is configured on the ‘ePublication’ platform.
+The following sections describe the announcement model for a publication on ePublication.ch
 ```mermaid
 
 %%{
@@ -40,8 +40,21 @@ config --"consists of"--> standard
 config --"consists of"--> terms
 config --"generates"--> schema
 
-
-
-
-
 ```
+
+The configuration is based on three artefacts:
+- The data types
+- The technical expressions
+- The configuration of an announcement type
+
+**The data types**
+
+xx
+
+**The technical expresions**
+
+xx
+
+**The configuration of an announcement type**
+
+xx
