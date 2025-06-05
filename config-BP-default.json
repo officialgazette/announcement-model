@@ -28,6 +28,17 @@
 				"elements": {
 					"element": [
 						{
+							"key": "projectDescription",
+							"type": "string",
+							"label": {
+								"de": "Projektbeschreibung",
+								"fr": "Projektbeschreibung FR"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
 							"key": "projectAddress",
 							"type": "address",
 							"label": {
@@ -46,17 +57,6 @@
 								"fr": "Projektverfasser FR"
 							},
 							"default": null
-						}, {
-							"key": "projectDescription",
-							"type": "string",
-							"label": {
-								"de": "Projektbeschreibung",
-								"fr": "Projektbeschreibung FR"
-							},
-							"default": null,
-							"mandatory": true,
-							"multiple": false,
-							"isPartOfTitle": false
 						}, {
 							"key": "legalRemedy",
 							"type": "string",
@@ -78,7 +78,7 @@
 							"type": "address",
 							"label": {
 								"de": "Kontakt",
-								"fr": "Kontakt FR"
+								"fr": "Contact"
 							},
 							"default": null
 						}
@@ -107,24 +107,16 @@
 							"multiple": true,
 							"isPartOfTitle": true
 						}, {
-							"key": "projectFramer",
-							"type": "person",
+							"key": "decisionContent",
+							"type": "address",
 							"label": {
-								"de": "Projektverfasser",
-								"fr": "Projektverfasser FR"
-							},
-							"default": null
-						}, {
-							"key": "projectDescription",
-							"type": "string",
-							"label": {
-								"de": "Projektbeschreibung",
-								"fr": "Projektbeschreibung FR"
+								"de": "Projektstandort",
+								"fr": "Projektstandort FR"
 							},
 							"default": null,
 							"mandatory": true,
-							"multiple": false,
-							"isPartOfTitle": false
+							"multiple": true,
+							"isPartOfTitle": true
 						}, {
 							"key": "legalRemedy",
 							"type": "string",
@@ -146,7 +138,7 @@
 							"type": "address",
 							"label": {
 								"de": "Kontakt",
-								"fr": "Kontakt FR"
+								"fr": "Contact"
 							},
 							"default": null
 						}
@@ -183,7 +175,7 @@
 							},
 							"default": null
 						}, {
-							"key": "projectDescription",
+							"key": "decisionContent",
 							"type": "string",
 							"label": {
 								"de": "Projektbeschreibung",
@@ -214,7 +206,7 @@
 							"type": "address",
 							"label": {
 								"de": "Kontakt",
-								"fr": "Kontakt FR"
+								"fr": "Contact"
 							},
 							"default": null
 						}
