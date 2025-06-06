@@ -57,7 +57,7 @@ Model --generates-->DynamicArtifacts
 
 ```
 
-The big picture
+The Artifacts in this repository
 
 ```mermaid
 
