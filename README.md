@@ -1,5 +1,64 @@
 # Announcement Model
-The following sections describe the announcement model for a publication on ePublication.ch
+The following sections explain the basic idea behind an announcement type on ePublication, its standardization, how it works, and how it fits into the overall context.
+
+## Overview ##
+```mermaid
+flowchart LR
+
+
+%%{
+  init: {
+    'theme': 'neutral'
+  }
+}%%
+
+%% ==== Instanz (rechts, orange) ====
+subgraph Instance [Instance: Authored]
+    AI[Announcement Instance]
+    AEI[Announcement Element Instance]
+    VI[Value Instance]
+
+    AI -->|"contains n"| AEI
+    AEI -->|"has 1"| VI
+end
+
+
+
+%% ==== Modell (Mitte, blau) ====
+subgraph Model [Model: Configured and Versioned]
+    AT[Announcement Type]
+    AET[Announcement Element Type]
+    VT[Value Type]
+    ST[Simple Type]
+    CT[Complex Type]
+
+    AT -->|"contains n"| AET
+    AET -->|"configures 1"| VT
+    VT -->|"can be a"| ST
+    VT -->|"can be a"| CT
+end
+
+%% ==== Dynamische Artefakte (links, lila) ====
+subgraph DynamicArtifacts [Dynamic Artifacts: Generated]
+    JSON[JSON Schema]
+    FORM[Form]
+    XML[XML Schema]
+end
+
+%% ==== Beziehungen Modell <-> Instanz ====
+AI -->|"has 1"| AT
+AEI -->|"has 1"| AET
+VI -->|"has 1"| VT
+
+%% ==== Beziehungen Modell <-> Dynamic Artifacts ====
+Model --generates-->DynamicArtifacts
+
+
+
+```
+
+The big picture
+
 ```mermaid
 
 %%{
@@ -39,7 +98,6 @@ schema["schema
 config --"contains"--> standard
 config --"contains"--> terms
 config --"generates"--> schema
-
 ```
 
 The configuration is based on three artefacts:
@@ -107,3 +165,6 @@ However, the list is conclusive, which means that if, for example, announcements
 
 The configuration of a notification type contains all necessary configurations and defines the actual content of a notification (in the form of a business case).
 In the configuration of the business case, elements are defined using terms from the term catalog and typed using the types from the type schema.
+
+
+
