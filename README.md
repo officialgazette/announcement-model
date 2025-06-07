@@ -28,6 +28,7 @@ end
 subgraph Model [Model: Configured and Versioned]
     AT[Announcement Type]
     AET[Announcement Element Type]
+    C[Terms Catalog]
     VT[Value Type]
     ST[Simple Type]
     CT[Complex Type]
@@ -36,6 +37,7 @@ subgraph Model [Model: Configured and Versioned]
     AET -->|"configures 1"| VT
     VT -->|"can be a"| ST
     VT -->|"can be a"| CT
+    AET --> |"contains n"| C
 end
 
 %% ==== Dynamische Artefakte (links, lila) ====
@@ -72,20 +74,20 @@ columns 3
 
 block:scope["standard"]:6
 
-terms["<a href='https://github.com/officialgazette/announcement/blob/main/catalog.json'>terms
-catalog
+terms["<a href='https://github.com/officialgazette/announcement/blob/main/catalog.json'>Terms
+Catalog
 
 (JSON)</a>"]:1
 space
-standard["<a href='https://github.com/officialgazette/announcement/blob/main/types.xsd'>types
+standard["<a href='https://github.com/officialgazette/announcement/blob/main/types.xsd'>Value Types
 
 (XSD)</a>"]
 
 end
 space:5
 
-config["<a href='https://github.com/officialgazette/announcement/blob/main/config-BP-default.json'>configuration of
-announcement type
+config["<a href='https://github.com/officialgazette/announcement/blob/main/config-BP-default.json'>Configuration of
+Announcement Type
 
 (JSON)</a>"]:2
 
@@ -107,31 +109,17 @@ The configuration is based on three artefacts:
 
 Each announcement type (synonymous with entry form on the GUI) consists of various elements (representing one or more input fields on the form).
 
-## The data types ##
+## The value types ##
 
-The data type set consists of complex and simple data types. Complex data types are:
-- person (can be natural or legal persons)
-- natural person
-- legal person
-- address
-- dateFromTo
+The data type set consists of complex and simple value types. Value types can contain rules, the value types and the associated rules are explained in the next section
 
-Simple types are:
-- string
-- int
-- date
-- duration
-- time
+### Person ###
+Person can be a natural or a legal person. The person type should be used when either natural or legal person is possible.
 
-> [!NOTE]
-> The data type set is stored statically in the system and cannot be changed.
+### Natural Person ###
+Description will follow soon
 
-### The Business Rules ###
-
-The static types can contain general business cases and constraints. These are continuously supplemented and described here.
-
-**Legal Person**
-
+### Legal Person ###
 Business Rule "Mandatory UID" in Legal Person:
 Under certain circumstances, the UID number is mandatory for legal persons. The following flowchart describes in which cases a UID number is mandatory.
 
@@ -153,6 +141,37 @@ flowchart TD
     B -- false --> G[legal form not mandatory]
     G --> H[UID mandatory]
 ```
+
+### Address ###
+Should follow the eCH standard for postal addresses: https://www.ech.ch/de/ech/ech-0010/5.0
+
+### Date From-To ###
+Describes an absolute period of time with a start date and an end date.
+
+------------------
+Simple types are:
+### String ###
+Describes a text value. Can be a single or multiline text field, including a rich text field.
+
+### Int ###
+Describes an integer.
+
+### Date ###
+Describes a date.
+
+### Duration ###
+Describes a period of time in the form of an absolute integer, which can be days or months.
+
+### time ###
+Describes a time of day from 00:00:00 to 23:59:59.
+
+-----------------------------------
+> [!NOTE]
+> The value type set is stored statically in the system and cannot be changed.
+
+
+
+
 
 
 
