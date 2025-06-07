@@ -159,17 +159,33 @@ Describes an integer.
 ### Date ###
 Describes a date.
 
+### Time ###
+Describes a time of day from 00:00:00 to 23:59:59.
+
+### DateTime ###
+Combines date and time.
+
 ### Duration ###
 Describes a period of time in the form of an absolute integer, which can be days or months.
 
-### time ###
-Describes a time of day from 00:00:00 to 23:59:59.
+### URL ###
+Describes a reference to a URI.
+
+### Enumeration ###
+Describes a conclusive list of several values.
+
+### Select ###
+Used to describe a Boolean switch. Possibly unnecessary.
+
+### Attachment ###
+Describes attachments, the type and manner is to be clarified.
+
 
 -----------------------------------
 > [!NOTE]
 > The value type set is stored statically in the system and cannot be changed.
 
-
+-----------------------------------
 
 
 
