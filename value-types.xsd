@@ -34,20 +34,27 @@
 		<xs:restriction base="xs:date"/>
 	</xs:simpleType>
 	<xs:simpleType name="time">
-		<xs:restriction base="xs:boolean"/>
+		<xs:restriction base="xs:time"/>
+	</xs:simpleType>
+	<xs:simpleType name="dateTime">
+		<xs:restriction base="xs:dateTime"/>
 	</xs:simpleType>
 	<xs:simpleType name="duration">
 		<xs:restriction base="xs:duration"/>
 	</xs:simpleType>
-	<xs:element name="dateFromTo">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="von" type="xs:date"/>
-				<xs:element name="bis" type="xs:date"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+	<xs:complexType name="dateFromTo">
+		<xs:sequence>
+			<xs:element name="von" type="xs:date"/>
+			<xs:element name="bis" type="xs:date"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="enum">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
 	<xs:simpleType name="select">
 		<xs:restriction base="xs:boolean"/>
+	</xs:simpleType>
+	<xs:simpleType name="attachment">
+		<xs:restriction base="xs:anyURI"/>
 	</xs:simpleType>
 </xs:schema>
