@@ -120,6 +120,8 @@ Person can be a natural or a legal person. The person type should be used when e
 The schema for a natural person should comply with eCH standard 0044, specifically the complexType “personIdentificationLightType". Further information see https://www.ech.ch/de/ech/ech-0044/4.1.
 
 ### Legal Person ###
+The schema for a legal person entity should follow the eCH standard 0097. For further information, see: https://www.ech.ch/de/ech/ech-0097/5.2.0
+
 Business Rule "Mandatory UID" in Legal Person:
 Under certain circumstances, the UID number is mandatory for legal persons. The following flowchart describes in which cases a UID number is mandatory.
 
