@@ -117,7 +117,7 @@ The data type set consists of complex and simple value types. Value types can co
 Person can be a natural or a legal person. The person type should be used when either natural or legal person is possible.
 
 ### Natural Person ###
-Description will follow soon
+The schema for a natural person should comply with eCH standard 0044, specifically the complexType “personIdentificationLightType". Further information see https://www.ech.ch/de/ech/ech-0044/4.1.
 
 ### Legal Person ###
 Business Rule "Mandatory UID" in Legal Person:
