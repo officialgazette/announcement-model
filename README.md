@@ -103,7 +103,7 @@ config --"generates"--> schema
 ```
 
 The configuration is based on three artefacts:
-- The data types
+- The value types
 - The terms catalog
 - The configuration of an announcement type
 
