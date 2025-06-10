@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Mit XMLSpy v2016 sp1 (x64) (http://www.altova.com) von Christian Müller (Staatssekretariat für Wirtschaft SECO) bearbeitet -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:eCH-0097="http://www.ech.ch/xmlns/eCH-0097/4" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:eCH-0097="http://www.ech.ch/xmlns/eCH-0097/4" xmlns:eCH-0044="http://www.ech.ch/xmlns/eCH-0044/4" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
 	<xs:import namespace="http://www.ech.ch/xmlns/eCH-0097/4" schemaLocation="http://www.ech.ch/xmlns/eCH-0097/4/eCH-0097-4-0.xsd"/>
+	<xs:import namespace="http://www.ech.ch/xmlns/eCH-0044/4" schemaLocation="http://www.ech.ch/xmlns/eCH-0044/4/eCH-0044-4-0.xsd"/>
 	<xs:complexType name="person">
 		<xs:choice>
 			<xs:element name="legalPerson" type="legalPerson"/>
@@ -16,7 +17,11 @@
 			<xs:element ref="eCH-0097:organisationIdentificationRoot"/>
 		</xs:sequence>
 	</xs:complexType>
-	<xs:complexType name="naturalPerson"/>
+	<xs:complexType name="naturalPerson">
+		<xs:sequence>
+			<xs:element ref="eCH-0044:personIdentificationRoot"/>
+		</xs:sequence>
+	</xs:complexType>
 	<xs:complexType name="address"/>
 	<xs:simpleType name="string">
 		<xs:annotation>
