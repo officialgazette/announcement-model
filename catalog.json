@@ -1,1499 +1,2013 @@
 {
 	"terms": [
 		{
-			"key": "notice",
-			"description": "Beschreibt die generelle Bekanntmachung eines Sachverhalts bzw. Geschäftsfalls"
-		}, {
-			"key": "constructionProject",
-			"description": "Geschäftsfall, beschreibt ein Bauprojekt"
-		}, {
-			"key": "projectFramer",
-			"description": "Beschreibt den Projektverfasser"
-		}, {
-			"key": "legalRemedy",
-			"description": "Genereller Begriff des Rechtsmittels"
-		}, {
-			"key": "deadline",
-			"description": "Bezeichnung für Frist im Allgemeinen"
-		}, {
-			"key": "pointOfContact",
-			"description": "Bezeichnung für Kontaktstelle im Allgemeinen"
-		}, {
 			"key": "invoiceCall",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "notice",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notification",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToReport",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToAct",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "subpoena",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "invitation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "constructionProject",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "constructionProjectAppealDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "constructionProjectComplaintDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "environmentalImpactReportDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "licenceApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "courtOrder",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "courtDisposal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "courtRuling",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "courtJudgment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "courtJudgmentProposal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "inheritanceContract",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "probateOfWill",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "inheritance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "InheritanceTransfer",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "handover",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "courtHearing",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "examinationHearing",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicPlanCirculation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicParticipation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "planDetermination",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "planAproval",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "planEnactment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "optionalReferendum",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicPlanCirculationCancellation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "session",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "assembly",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "requestToParliamentCantonCouncil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decree",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "optionalReferendumDecree",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "mandatoryReferendumDecree",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "ReferendumDeadlineExpiry",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "referendumAnnouncement",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "nomination",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "newEnactment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "enactmentChange",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "enactmentRepeal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "enactmentRevision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "electionResults",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "furtherNoticeElections",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "voteResults",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "furtherNoticeVoting",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "launchedInitiative",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "approvedInitiative",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "achievedInitiative",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notAchievedInitiative",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "completedInitiative",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "legislationAnnouncement",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "penaltyOrder",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "trafficRegulation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "judicialProhibition",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "freezingOrder",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxAssessmentRuling",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxAssessmentRulingAppealDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "officialAssessment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxMattersDelegation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxDeclarationSubmission",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "federalTaxPayment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "withholdingTaxDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "propertyGainsTaxDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "appealDecisionOfTaxAdministration",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "evictionOrder",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "evictionClosing",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToCreditorsOfFoundation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToAccountForPublicInventory",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToAccountDueToOfficialLiquidation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToAccountDueToInheritance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicInventory",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tenderInvitation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "concessionsTender",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "competition",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "award",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "concessionApproval",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "awardedCompetition",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tenderCorrigendum",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToActToBeHeardt",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToActSubmissionOfDocuments",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToActGeneral",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "furtherNoticePostedWorkersAct",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "churchInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "examNotice",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "furtherNoticeLegalNotarizationServices",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "personalMutationInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "fileReturn",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "fishingAndHuntingInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "agricultureInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicServiceInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "legalCounselling",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicEventInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "ordinance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "regulations",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "otherAnnouncement",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tenderStop",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tenderParticipantSelection",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "otherTenderNotice",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "graveElevation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "privateAd",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "jobAdvertisement",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicTenderForAgricultureLand",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicTenderForAgricultureBusiness",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicTenderForAgricultureProject",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "residencePermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "residencePermitRevocation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "residencePermitNoneIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
-			"key": "residencePermitExtention",
-			"description": "add description here"
+			"key": "residencePermistringention",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "residencePermitNoneExtention",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "residencePermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "settlementPermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "settlementPermitRevocation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "settlementPermitNoneIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
-			"key": "settlementPermitExtention",
-			"description": "add description here"
+			"key": "settlementPermistringention",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "settlementPermitNoneExtention",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "settlementPermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "naturalisation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "nameChange",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "sentenceExecution",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "measureExecution",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "inheritanceTaxRuling",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "postPenaltyTaxProceedingInitiation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "employersReportDuty",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "employersSalaryReporting",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxationNotice",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "irrigation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "landImprovement",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "deforestation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hydropower",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "waterLaw",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "waterUse",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "constructionSiteInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "officialCadastralSurveying",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "roadService",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "roadUse",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "abandonedVehicles",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "officialParcelExpropriation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "personProtectionDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "personProtectionSubpoena",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "deathpresumptionCall",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "presumedDeathDeclarationRequest",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "presumedDeathDeclarationDecision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawyersRegisterEntry",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawyersRegisterRemoval",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawyersRegisterApproval",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "LawyersRegisterWaiver",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawyersRegisterWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "servicePublicNotice",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawyersRegisterEuEftaEntry",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawyersRegisterEuEftaRemoval",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawyersRegisterVeniaApproval",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notaryRegisterApproval",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "professionalPracticeProhibition ",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notaryRegisterWaiver",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notaryRegisterWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notaryRegisterCessation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notaryRegisterDeprivation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "deathNotice",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "salaryClaim",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "evictedGoodsPickup",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "PersonnelMutation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "annualAccounts",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "accessRight",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "agendaRequest",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "capitalIncrease",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "statutes",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "stat",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "bondAndDividendAndDistribution",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "ordinaryGeneralAssembly",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "extraordinaryGeneralAssembly",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "railwayPlanningApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "ropewayPlanningApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "airportPlanningApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "roadPlanningApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "powerplantPlanningApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "gastransportLinePlanningApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hydropowerPlanningApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "heritageProtectionRecording",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "heritageProtectionDismissal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "landRegisterImplementation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitMutation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitMutation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "hospitalitySectorPermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "healthcarePermitApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "healthcarePermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "healthcarePermitMutation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "healthcarePermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tradePermitApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tradePermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tradePermitMutation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "tradePermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "entertainmentAndItinerantTradePermitApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "entertainmentAndItinerantTradePermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "entertainmentAndItinerantTradePermitMutation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "entertainmentAndItinerantTradePermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "creditMediationPermitApplication",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "creditMediationPermitIssuance",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "creditMediationPermitMutation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "creditMediationPermitWithdrawal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "otherPermit",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "voluntaryPublicLandIncrease",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicIncrease",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "sanctionImposition",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "sanctionLifting",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "sanctionComment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToComment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
-			"key": "callToCommentExtension",
-			"description": "add description here"
+			"key": "callToCommenstringension",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToComplaintResponse",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToComplaintResponseExtension",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callOfRestorationOfLegalState",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToCollect",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "sanctionedParty",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "courtProcedureType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "categoryType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "handoverType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "negotiationType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "publicPlanCirculationType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "responsibleGovernmentEntity",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "decidingGovernmentEntity",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "requestingGovernmentEntity",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "electionType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "voteType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "announcementType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "jobStart",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "applicationDocuments",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "tenderProcedureType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "citizenshipAdmissionNote",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "trafficRegulationType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "implementationType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "sanctionType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "sanctionLiftingReason",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
 		}, {
 			"key": "violationType",
-			"description": "add description here"
+			"valueType": "enum",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA10",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA15",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA20",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA25",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA30",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA35",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA40",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA45",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "RS-DA50",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "civilProceeding",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "criminalProceeding",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "administrativeProceeding",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callAndDeadline",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "forceEntry",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "purchase",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "donation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "inheritanceDivision",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "prenuptialAgreement",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "transmission",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "handoverJudgment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "handoverAddendum",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "mainNegotiation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "justiceOfThePeaceNegotiation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "conciliationNegotiation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "instructionNegotiation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "structurePlan",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "utilizationPlan",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "specialLandUsePlan",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "designPlan",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "landUsePlan",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "cantonalRoad",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "nationalRoad",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "miningPermit",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "governingCouncil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "municipalCoucil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "cityCouncil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "specialPurpose ",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "parliament",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "parliamentCantonCouncil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "parliamentStateCouncil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "parliamentMajorCouncil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "parliamentDistrictCouncil",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "cantonalAuthority",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "localAuthority",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "districtAuthority",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "justiceAdministration",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "prosecution",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "federalElection",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "cantonalElection",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "regionalElection",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "communalElection",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "federalVote",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "cantonalVote",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "communalVote",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "regionalVote",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "protocol",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "parliamentStateCouncilBulletin",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "temporaryMeasures",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "permanentMeasures",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "construcitonMeasures",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "immediateStart",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "arangementStart",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "immediateOrArrangementStart",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "applicationDocumentsElectronicOrPaper",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "applicationDocumentsElectronic",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "applicationDocumentsPaper",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "openProcedure",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "selectiveProcedure",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "freehandProcedure",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "citizenshipAdmissionWithoutReservation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "citizenshipAdmissionWithReservation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "citizenshipAdmissionWithDoubleReservation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "administrativeSanctions",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "servicesProhibition",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "administrationSanctionsAndServiceProhibition",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "subsequentDocuments",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "marginalWageAndWorkingConditionsViolation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "postPayment",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "wageAndWorkingConditionsViolation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "workingConditionsViolation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "informationObligationViolation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "documentationObligationViolation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "notificationObligationViolation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "CareObligationViolation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "nonPaymentOfAdministrationSanctions",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
-			"key": "individualText",
-			"description": "add description here"
+			"key": "individualstring",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "announcementTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "projectTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decreeTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "enactmentTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "constructionProjectTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "propertyTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "planCirculationTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "eventTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "requestTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "electionTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "voteTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "initiativeTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "judicialProhibitionTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToActTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "adTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "publicTenderTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "concernedPerson",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "concernedObject",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "concernedPersonTitle",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "projectDescription",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "projectAddress",
-			"description": "add description here"
+			"valueType": "address",
+			"description": "Add description here"
 		}, {
 			"key": "parcel",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "coordinates",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "buildingInsuranceNo",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "zone",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "issue",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "exceptions",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "specialRequests",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "landowner",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "applicantParty",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "applicantPartyDelegation",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "buildingContractor",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "buildingContractorDelegation",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
+		}, {
+			"key": "projectFramer",
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "projectFramerResponsible",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "externelProjectInformation",
-			"description": "add description here"
+			"valueType": "url",
+			"description": "Add description here"
 		}, {
 			"key": "geoview",
-			"description": "add description here"
+			"valueType": "url",
+			"description": "Add description here"
 		}, {
 			"key": "summonedParty",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "summonedPartyDelegation",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "rentalPropertyAddress",
-			"description": "add description here"
+			"valueType": "address",
+			"description": "Add description here"
 		}, {
 			"key": "accusedTenant",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "serialNumber",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "forceEntryDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
-			"key": "deceasedPerson",
-			"description": "add description here"
+			"key": "naturalPerson",
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
-			"key": "deceasedPersonInformation",
-			"description": "add description here"
+			"key": "naturalPersonInformation",
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "accusedPerson",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "accusedParty",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "sentencedPerson",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "missingPerson",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "lostPerson",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "permitHolder",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "concernedOrganisationRoomDescription",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "concernedOrganisationOwner",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "concernedOrganisation",
-			"description": "add description here"
+			"valueType": "legalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "plaintiff",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "plaintiffDelegation",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "propertyNo",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "buildingLeaseParcel",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "subleaseholdParcel",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "condominiumParcel",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "coOwnershipParcel",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "affectedSection",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "affectedRoad",
-			"description": "add description here"
+			"valueType": "address",
+			"description": "Add description here"
 		}, {
 			"key": "serviceDescription",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "concernedOrganisationHead",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "caseNo",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "controlDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "announcementContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "permitDuration",
-			"description": "add description here"
+			"valueType": "dateFromTo",
+			"description": "Add description here"
 		}, {
 			"key": "negotiationSubject",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "entitledToInherit",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "willContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "inheritanceContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "estateContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "vendor",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "purchaser",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "personInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "generalDescription",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "propertySince",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "negotiationStart",
-			"description": "add description here"
+			"valueType": "datetime",
+			"description": "Add description here"
 		}, {
 			"key": "examinationHearingStart",
-			"description": "add description here"
+			"valueType": "datetime",
+			"description": "Add description here"
 		}, {
 			"key": "negotiationDuration",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "examinationHearingDuration",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "negotiationPlace",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "examinationHearingPlace",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "indictmentDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "eventOrganisor",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "eventStart",
-			"description": "add description here"
+			"valueType": "datetime",
+			"description": "Add description here"
 		}, {
 			"key": "eventPlace",
-			"description": "add description here"
+			"valueType": "address",
+			"description": "Add description here"
 		}, {
 			"key": "auctionObjectDetail",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "agenda",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "agendaPdf",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}, {
 			"key": "eligible",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "eventInformationUrl",
-			"description": "add description here"
+			"valueType": "url",
+			"description": "Add description here"
 		}, {
 			"key": "requestContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "requestDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "applicant",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "requestPdf",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}, {
 			"key": "decreeContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decreeNo",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decreePdf",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}, {
 			"key": "electionDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "electionContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "voteDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "voteContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "templates",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "electionPdf",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}, {
 			"key": "votePdf",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}, {
 			"key": "disposal",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "initiativeContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "initiativePdf",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}, {
 			"key": "penaltyOrderDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "penaltyOrderContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "penaltyOrderUrl",
-			"description": "add description here"
+			"valueType": "url",
+			"description": "Add description here"
 		}, {
 			"key": "trafficRegulationDuration",
-			"description": "add description here"
+			"valueType": "dateFromTo",
+			"description": "Add description here"
 		}, {
 			"key": "trafficRegulationStart",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "trafficRegulationContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "trafficDiversionContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "judicialProhibitionContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxablePerson",
-			"description": "add description here"
+			"valueType": "person",
+			"description": "Add description here"
 		}, {
 			"key": "taxIdentificationNumber",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "freezedAmount",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "freezingReason",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxAssessmentContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "callToActContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "taxPeriod",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "rentalPropertyContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "evictionDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "evictionContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "evictionCosts",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "dissolvedOrganisation",
-			"description": "add description here"
+			"valueType": "legalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "dissolutionThrough",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "dissolutionDecisionDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "burialContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "cemeteryName",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "affectedGraves",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "graveElevationContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "adContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "jobTitleAndWorkload",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "jobDescription",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "employmentStart",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "advertismentUrl",
-			"description": "add description here"
+			"valueType": "url",
+			"description": "Add description here"
 		}, {
 			"key": "publicTenderContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "orderSubject",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "awardingEntity",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "procurementEntity",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "orderType",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "mainExecutionPlace",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "orderContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "orderInformationPdf",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}, {
 			"key": "awardInformation",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "foreignPerson",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "residencePermitEnd",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "settlementPermitEnd",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "naturalisedPerson",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "citizenshipMunicipality",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "personWithOldName",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "proceedingsCosts",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "valuationCommissionPresident",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "valuationCommissionMember",
-			"description": "add description here"
+			"valueType": "naturalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "registerEntryDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "notaryOffice",
-			"description": "add description here"
+			"valueType": "legalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "lawFirm",
-			"description": "add description here"
+			"valueType": "legalPerson",
+			"description": "Add description here"
 		}, {
 			"key": "disposalContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decisionContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decisionAuthority",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "startAndDuration",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decisionDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "protocolContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "enactmentContent",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "decreeDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "approvalDate",
-			"description": "add description here"
+			"valueType": "date",
+			"description": "Add description here"
 		}, {
 			"key": "orderingAuthoroty",
-			"description": "add description here"
+			"valueType": "string",
+			"description": "Add description here"
 		}, {
 			"key": "lawCompilationUrl",
-			"description": "add description here"
+			"valueType": "url",
+			"description": "Add description here"
 		}, {
 			"key": "furtherInformationUrl",
-			"description": "add description here"
+			"valueType": "url",
+			"description": "Add description here"
 		}, {
 			"key": "noticePdf",
-			"description": "add description here"
-		}, {
-			"key": "legalComponent",
-			"description": "add description here"
-		}, {
-			"key": "legalNoticeContent",
-			"description": "add description here"
+			"valueType": "attachment",
+			"description": "Add description here"
 		}
 	]
 }
