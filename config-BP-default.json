@@ -1,7 +1,7 @@
 {
 	"configuration": {
 		"announcementType": "BP10",
-		"gazette": "Amtsblatt-ZH",
+		"gazette": "ePublication (default)",
 		"description": "Beschreibung des Meldungstyps",
 		"themes": "construction",
 		"languages": "DE, FR",
@@ -19,7 +19,6 @@
 			{
 				"category": {
 					"key": "constructionProject",
-					"type": null,
 					"label": {
 						"de": "Baugesuch",
 						"fr": "Demande d'autorisation de construire"
@@ -28,8 +27,177 @@
 				"elements": {
 					"element": [
 						{
+							"key": "applicantParty",
+							"label": {
+								"de": "Gesuchstellende Partei",
+								"fr": "Requérant"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "applicantPartyDelegation",
+							"label": {
+								"de": "Vertretung der gesuchstellenden Partei",
+								"fr": "Représentation du requérant"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "buildingContractor",
+							"label": {
+								"de": "Bauherrschaft",
+								"fr": "Maître d'ouvrage"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "buildingContractorDelegation",
+							"label": {
+								"de": "Vertretung der Bauherrschaft",
+								"fr": "Représentation du maître d'ouvrage"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "buildingInsuranceNo",
+							"label": {
+								"de": "Gebäudeversicherungsnummer",
+								"fr": "Numéro d'assurance de bâtiment"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "caseNo",
+							"label": {
+								"de": "Geschäftsnummer",
+								"fr": "Numéro d'objet"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "constructionProject",
+							"label": {
+								"de": "Baugesuch",
+								"fr": "Demande d'autorisation de construire"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "constructionProjectAppealDecision",
+							"label": {
+								"de": "Entscheid zu Einsprache/Einwendung",
+								"fr": "Décision sur recours concernant la demande d'autorisation de construire"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "constructionProjectTitle",
+							"label": {
+								"de": "Titel des Bauprojekts",
+								"fr": "Titre du projet de construction"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "coordinates",
+							"label": {
+								"de": "Koordinaten",
+								"fr": "Coordonnées"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "externelProjectInformation",
+							"label": {
+								"de": "Unterlagen",
+								"fr": "Documents"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "geoview",
+							"label": {
+								"de": "Geoview",
+								"fr": "Geoview"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "issue",
+							"label": {
+								"de": "Neuauflage",
+								"fr": "Nouvelle mise à l’enquête"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "landowner",
+							"label": {
+								"de": "Grundeigentümer",
+								"fr": "Propriétaire foncier"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "notice",
+							"label": {
+								"de": "Bekanntmachung",
+								"fr": "Publication"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "parcel",
+							"label": {
+								"de": "Parzelle",
+								"fr": "Parcelle"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "coordinates",
+							"label": {
+								"de": "Koordinaten",
+								"fr": "Coordonnées"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
 							"key": "projectDescription",
-							"type": "string",
 							"label": {
 								"de": "Projektbeschreibung",
 								"fr": "Projektbeschreibung FR"
@@ -40,7 +208,6 @@
 							"isPartOfTitle": false
 						}, {
 							"key": "projectAddress",
-							"type": "address",
 							"label": {
 								"de": "Projektstandort",
 								"fr": "Projektstandort FR"
@@ -51,15 +218,37 @@
 							"isPartOfTitle": true
 						}, {
 							"key": "projectFramer",
-							"type": "person",
 							"label": {
 								"de": "Projektverfasser",
 								"fr": "Projektverfasser FR"
 							},
 							"default": null
 						}, {
+							"key": "projectFramerResponsible",
+							"label": {
+								"de": "Projektverantwortliche Person",
+								"fr": "Responsable du projet"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "specialRequests",
+							"label": {
+								"de": "Sondergesuche",
+								"fr": "Demandes spéciales"
+							},
+							"default": "Die Pläne liegen während der Auflagefrist ..."
+						}, {
+							"key": "zone",
+							"label": {
+								"de": "zone",
+								"fr": "zone"
+							},
+							"default": "Die Pläne liegen während der Auflagefrist ..."
+						}, {
 							"key": "legalRemedy",
-							"type": "string",
 							"label": {
 								"de": "Rechtsmittel",
 								"fr": "Rechtsmittel FR"
@@ -67,7 +256,6 @@
 							"default": "Die Pläne liegen während der Auflagefrist ..."
 						}, {
 							"key": "deadline",
-							"type": "duration",
 							"label": {
 								"de": "Einsprachefrist",
 								"fr": "Einsprachefrist FR"
@@ -75,7 +263,6 @@
 							"default": 20
 						}, {
 							"key": "pointOfContact",
-							"type": "address",
 							"label": {
 								"de": "Kontakt",
 								"fr": "Contact"
@@ -87,7 +274,6 @@
 			}, {
 				"category": {
 					"key": "constructionProjectAppealDecision",
-					"type": null,
 					"label": {
 						"de": "Rekursentscheid zum Baugesuch",
 						"fr": "Décision sur recours concernant la demande d'autorisation de construire"
@@ -97,7 +283,6 @@
 					"element": [
 						{
 							"key": "projectAddress",
-							"type": "address",
 							"label": {
 								"de": "Projektstandort",
 								"fr": "Projektstandort FR"
@@ -108,7 +293,6 @@
 							"isPartOfTitle": true
 						}, {
 							"key": "decisionContent",
-							"type": "address",
 							"label": {
 								"de": "Projektstandort",
 								"fr": "Projektstandort FR"
@@ -119,7 +303,6 @@
 							"isPartOfTitle": true
 						}, {
 							"key": "legalRemedy",
-							"type": "string",
 							"label": {
 								"de": "Rechtsmittel",
 								"fr": "Rechtsmittel FR"
@@ -127,7 +310,6 @@
 							"default": "Die Pläne liegen während der Auflagefrist ..."
 						}, {
 							"key": "deadline",
-							"type": "duration",
 							"label": {
 								"de": "Einsprachefrist",
 								"fr": "Einsprachefrist FR"
@@ -135,7 +317,6 @@
 							"default": 20
 						}, {
 							"key": "pointOfContact",
-							"type": "address",
 							"label": {
 								"de": "Kontakt",
 								"fr": "Contact"
@@ -147,7 +328,6 @@
 			}, {
 				"category": {
 					"key": "environmentalImpactReportDecision",
-					"type": null,
 					"label": {
 						"de": "Entscheid zum Umweltverträglichkeitsbericht",
 						"fr": "Décision sur rapport d'impact sur l'environnement"
@@ -157,7 +337,6 @@
 					"element": [
 						{
 							"key": "projectAddress",
-							"type": "address",
 							"label": {
 								"de": "Projektstandort",
 								"fr": "Projektstandort FR"
@@ -167,19 +346,20 @@
 							"multiple": true,
 							"isPartOfTitle": true
 						}, {
-							"key": "projectFramer",
-							"type": "person",
+							"key": "projectDescrienvironmentalImpactReportDecisionption",
 							"label": {
-								"de": "Projektverfasser",
-								"fr": "Projektverfasser FR"
+								"de": "Entscheid in Bausachen mit Umweltverträglichkeitsprüfung",
+								"fr": "Décision sur rapport d'impact sur l'environnement"
 							},
-							"default": null
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
-							"key": "decisionContent",
-							"type": "string",
+							"key": "exceptions",
 							"label": {
-								"de": "Projektbeschreibung",
-								"fr": "Projektbeschreibung FR"
+								"de": "Ausnahmen",
+								"fr": "Dérogations"
 							},
 							"default": null,
 							"mandatory": true,
@@ -187,7 +367,6 @@
 							"isPartOfTitle": false
 						}, {
 							"key": "legalRemedy",
-							"type": "string",
 							"label": {
 								"de": "Rechtsmittel",
 								"fr": "Rechtsmittel FR"
@@ -195,7 +374,6 @@
 							"default": "Die Pläne liegen während der Auflagefrist ..."
 						}, {
 							"key": "deadline",
-							"type": "duration",
 							"label": {
 								"de": "Einsprachefrist",
 								"fr": "Einsprachefrist FR"
@@ -203,7 +381,6 @@
 							"default": 20
 						}, {
 							"key": "pointOfContact",
-							"type": "address",
 							"label": {
 								"de": "Kontakt",
 								"fr": "Contact"
