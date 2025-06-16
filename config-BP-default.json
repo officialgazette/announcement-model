@@ -346,7 +346,7 @@
 							"multiple": true,
 							"isPartOfTitle": true
 						}, {
-							"key": "projectDescrienvironmentalImpactReportDecisionption",
+							"key": "environmentalImpactReportDecisionContent",
 							"label": {
 								"de": "Entscheid in Bausachen mit Umweltverträglichkeitsprüfung",
 								"fr": "Décision sur rapport d'impact sur l'environnement"
