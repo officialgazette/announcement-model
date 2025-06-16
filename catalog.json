@@ -2012,6 +2012,14 @@
 			"key": "noticePdf",
 			"valueType": "attachment",
 			"description": "Add description here"
+		}, {
+			"key": "transmittingCompany",
+			"valueType": "legalPerson",
+			"description": "Add description here"
+		}, {
+			"key": "acquiringCompany",
+			"valueType": "legalPerson",
+			"description": "Add description here"
 		}
 	]
 }
