@@ -42,6 +42,10 @@
 			"description": "Add description here"
 		}, {
 			"key": "environmentalImpactReportDecision",
+			"valueType": "null",
+			"description": "Add description here"
+		}, {
+			"key": "environmentalImpactReportDecisionContent",
 			"valueType": "string",
 			"description": "Add description here"
 		}, {
