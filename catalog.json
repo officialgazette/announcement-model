@@ -2020,6 +2020,10 @@
 			"key": "acquiringCompany",
 			"valueType": "legalPerson",
 			"description": "Add description here"
+		}, {
+			"key": "callToCreditorsMergA",
+			"valueType": "null",
+			"description": "Business Case: Call to creditors following the merger of companies limited by shares under MergA (FusG)"
 		}
 	]
 }
