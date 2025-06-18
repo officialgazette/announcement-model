@@ -1,42 +1,27 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/person.schema.json",
-  "title": "Person",
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "title": "person",
   "type": "object",
-  "oneOf": [
-    {
-      "title": "Legal Person",
+  "properties": {
+    "legalPerson": {
       "type": "object",
       "properties": {
-        "legalPerson": {
-          "type": "object",
-          "properties": {
-            "uid": { "type": "string" },
-            "organisationName": { "type": "string" },
-            "legalForm": { "type": "string" }
-          },
-          "required": ["uid", "organisationName", "legalForm"]
-        }
+        "uid": { "type": "string" },
+        "organisationName": { "type": "string" },
+        "legalForm": { "type": "string" }
       },
-      "required": ["legalPerson"]
+      "required": ["uid", "organisationName", "legalForm"],
+      "additionalProperties": false
     },
-    {
-      "title": "Natural Person",
+    "naturalPerson": {
       "type": "object",
       "properties": {
-        "naturalPerson": {
-          "type": "object",
-          "properties": {
-            "officialName": { "type": "string" },
-            "firstName": { "type": "string" }
-          },
-          "required": ["officialName", "firstName"]
-        }
+        "officialName": { "type": "string" },
+        "firstName": { "type": "string" }
       },
-      "required": ["naturalPerson"]
-    }
-  ],
-  "definitions": {
+      "required": ["officialName", "firstName"],
+      "additionalProperties": false
+    },
     "address": {
       "type": "object",
       "properties": {
@@ -45,25 +30,14 @@
         "swissZipCode": { "type": "string" },
         "town": { "type": "string" }
       },
-      "required": ["street", "houseNumber", "swissZipCode", "town"]
-    },
-    "string": {
-      "type": "string",
-      "description": "Single line text"
-    },
-    "stringMultiline": {
-      "type": "string",
-      "description": "Multi line text"
-    },
-    "date": {
-      "type": "string",
-      "format": "date"
-    },
-    "int": {
-      "type": "integer"
-    },
-    "enum": {
-      "type": "string"
+      "required": ["street", "houseNumber", "swissZipCode", "town"],
+      "additionalProperties": false
     }
-  }
+  },
+  "required": ["address"],
+  "oneOf": [
+    { "required": ["legalPerson"], "not": { "required": ["naturalPerson"] } },
+    { "required": ["naturalPerson"], "not": { "required": ["legalPerson"] } }
+  ],
+  "additionalProperties": false
 }
