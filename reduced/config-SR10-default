@@ -1,0 +1,272 @@
+{
+	"configuration": {
+		"announcementType": "SR10",
+		"gazette": "ePublication (default)",
+		"description": "call to creditors (Schuldenrufe): A call to creditors is a public request under Swiss law that is addressed to the creditors of a company that is being dissolved or is in debt restructuring moratorium. The aim is to inform all creditors so that they can register their claims before the company's assets are distributed or a debt restructuring agreement is concluded. ",
+		"themes": "Debt collection and bankruptcy",
+		"languages": "DE, FR",
+		"publicationPrice": 20,
+		"publicityPeriod": 24,
+		"archiv": true,
+		"legalBasis": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_35",
+		"organisationType": "court (Gerichte, Kantonale Verwaltung etc.)",
+		"livePublication": false,
+		"publicationDay": "Monday, Thuesday...",
+		"holidays": "25.12.,01.01.,01.08. ",
+		"action(announcementPurpose?)": "notice",
+		"reaction(action?)": true,
+		"privacyRestrictions": true,
+		"businessCase": [
+			{
+				"category": {
+					"key": "callToCreditorsMergA",
+					"label": {
+						"de": "Schuldenruf infolge Fusion nach FusG",
+						"fr": "Appel aux créanciers suite à une fusion selon la LFus",
+						"it": "Grida ai creditori in seguito a fusione secondo LFus",
+						"en": "Call to creditors following the merger of companies limited by shares under MergA"
+					}
+				},
+				"elements": {
+					"element": [
+						{
+							"key": "transferringCompany",
+							"label": {
+								"de": "Übertragende Organisation ",
+								"fr": "Organisation transférante",
+								"it": "Organizzazione trasferente",
+								"en": "Transferrring organisation"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": true
+						}, {
+							"key": "acquiringCompany",
+							"label": {
+								"de": "Übernehmende Organisation",
+								"fr": "Organisation reprenante ",
+								"it": "Organizzazione assuntrice ",
+								"en": "Acquiring organisation "
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": true
+						}, {
+							"key": "publicationDate",
+							"label": {
+								"de": "Publikation der Fusion im SHAB",
+								"fr": "Publication de la fusion dans la FOSC",
+								"it": "Pubblicazione della fusione sul FUSC",
+								"en": "Announcement of merger in SOGC"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "legalRemedy",
+							"label": {
+								"de": "Rechtliche Hinweise",
+								"fr": "Remarques juridiques",
+								"it": "Indicazioni giuridiche",
+								"en": "Legal notice"
+							},
+							"default": {
+								"de": "Die Pläne liegen während der Auflagefrist ...",
+								"fr": "FR_Die Pläne liegen während der Auflagefrist ...",
+								"it": "IT_Die Pläne liegen während der Auflagefrist ...",
+								"en": "EN_Die Pläne liegen während der Auflagefrist ..."
+							}
+						}, {
+							"key": "deadline",
+							"label": {
+								"de": "Einsprachefrist",
+								"fr": "Délai",
+								"it": "Termine",
+								"en": "Time limit"
+							},
+							"default": 20
+						}, {
+							"key": "pointOfContact",
+							"label": {
+								"de": "Kontakt",
+								"fr": "Contact",
+								"it": "Punto di contatto",
+								"en": "Point of contact"
+							},
+							"default": null
+						}
+					]
+				}
+			}, {
+				"category": {
+					"key": "callToCreditorsDemerger",
+					"label": {
+						"de": "Schuldenruf infolge Spaltung",
+						"fr": "Appel aux créanciers suite à une scission",
+						"it": "Grida ai creditori in seguito a scissione",
+						"en": "Call to creditors following a demerger"
+					}
+				},
+				"elements": {
+					"element": [
+						{
+							"key": "transferringCompany",
+							"label": {
+								"de": "Übertragende Organisation ",
+								"fr": "Organisation transférante",
+								"it": "Organizzazione trasferente",
+								"en": "Transferrring organisation"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": true
+						}, {
+							"key": "acquiringCompany",
+							"label": {
+								"de": "Übernehmende Organisation",
+								"fr": "Organisation reprenante ",
+								"it": "Organizzazione assuntrice ",
+								"en": "Acquiring organisation "
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": true,
+							"isPartOfTitle": true
+						}, {
+							"key": "publicationDate",
+							"label": {
+								"de": "Publikation der Fusion im SHAB",
+								"fr": "Publication de la fusion dans la FOSC",
+								"it": "Pubblicazione della fusione sul FUSC",
+								"en": "Announcement of merger in SOGC"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "legalRemedy",
+							"label": {
+								"de": "Rechtliche Hinweise",
+								"fr": "Remarques juridiques",
+								"it": "Indicazioni giuridiche",
+								"en": "Legal notice"
+							},
+							"default": {
+								"de": "Die Pläne liegen während der Auflagefrist ...",
+								"fr": "FR_Die Pläne liegen während der Auflagefrist ...",
+								"it": "IT_Die Pläne liegen während der Auflagefrist ...",
+								"en": "EN_Die Pläne liegen während der Auflagefrist ..."
+							}
+						}, {
+							"key": "deadline",
+							"label": {
+								"de": "Einsprachefrist",
+								"fr": "Délai",
+								"it": "Termine",
+								"en": "Time limit"
+							},
+							"default": 20
+						}, {
+							"key": "pointOfContact",
+							"label": {
+								"de": "Kontakt",
+								"fr": "Contact",
+								"it": "Punto di contatto",
+								"en": "Point of contact"
+							},
+							"default": null
+						}
+					]
+				}
+			}, {
+				"category": {
+					"key": "callToCreditorsCompanyLimitedSharesToLimitedLiabilityCompany",
+					"label": {
+						"de": "Schuldenruf infolge Umwandlung einer Aktiengesellschaft in eine Gesellschaft mit beschränkter Haftung",
+						"fr": "Appel aux créanciers suite à une scission",
+						"it": "Grida ai creditori in seguito a scissione",
+						"en": "Call to creditors following the transformation of a company limited by shares into a limited liability company"
+					}
+				},
+				"elements": {
+					"element": [
+						{
+							"key": "transferringCompany",
+							"label": {
+								"de": "Übertragende Organisation ",
+								"fr": "Organisation transférante",
+								"it": "Organizzazione trasferente",
+								"en": "Transferrring organisation"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": true
+						}, {
+							"key": "acquiringCompany",
+							"label": {
+								"de": "Übernehmende Organisation",
+								"fr": "Organisation reprenante ",
+								"it": "Organizzazione assuntrice ",
+								"en": "Acquiring organisation "
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": true,
+							"isPartOfTitle": true
+						}, {
+							"key": "publicationDate",
+							"label": {
+								"de": "Publikation der Fusion im SHAB",
+								"fr": "Publication de la fusion dans la FOSC",
+								"it": "Pubblicazione della fusione sul FUSC",
+								"en": "Announcement of merger in SOGC"
+							},
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
+						}, {
+							"key": "legalRemedy",
+							"label": {
+								"de": "Rechtliche Hinweise",
+								"fr": "Remarques juridiques",
+								"it": "Indicazioni giuridiche",
+								"en": "Legal notice"
+							},
+							"default": {
+								"de": "Die Pläne liegen während der Auflagefrist ...",
+								"fr": "FR_Die Pläne liegen während der Auflagefrist ...",
+								"it": "IT_Die Pläne liegen während der Auflagefrist ...",
+								"en": "EN_Die Pläne liegen während der Auflagefrist ..."
+							}
+						}, {
+							"key": "deadline",
+							"label": {
+								"de": "Einsprachefrist",
+								"fr": "Délai",
+								"it": "Termine",
+								"en": "Time limit"
+							},
+							"default": 20
+						}, {
+							"key": "pointOfContact",
+							"label": {
+								"de": "Kontakt",
+								"fr": "Contact",
+								"it": "Punto di contatto",
+								"en": "Point of contact"
+							},
+							"default": null
+						}
+					]
+				}
+			}
+		]
+	}
+}
