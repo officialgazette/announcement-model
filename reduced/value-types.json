@@ -5,10 +5,11 @@
   "properties": {
     "legalPerson": {
       "type": "object",
+      "description": "Business rule: UID is mandatory under certain circumstances. See https://amtsblattportal.ch/static/uid_en.html",
       "properties": {
-        "uid": { "type": "string" },
-        "organisationName": { "type": "string" },
-        "legalForm": { "type": "string" }
+        "uid": { "$ref": "#/$defs/string" },
+        "organisationName": { "$ref": "#/$defs/string" },
+        "legalForm": { "$ref": "#/$defs/string" }
       },
       "required": ["uid", "organisationName", "legalForm"],
       "additionalProperties": false
@@ -16,8 +17,8 @@
     "naturalPerson": {
       "type": "object",
       "properties": {
-        "officialName": { "type": "string" },
-        "firstName": { "type": "string" }
+        "officialName": { "$ref": "#/$defs/string" },
+        "firstName": { "$ref": "#/$defs/string" }
       },
       "required": ["officialName", "firstName"],
       "additionalProperties": false
@@ -25,10 +26,10 @@
     "address": {
       "type": "object",
       "properties": {
-        "street": { "type": "string" },
-        "houseNumber": { "type": "string" },
-        "swissZipCode": { "type": "string" },
-        "town": { "type": "string" }
+        "street": { "$ref": "#/$defs/string" },
+        "houseNumber": { "$ref": "#/$defs/string" },
+        "swissZipCode": { "$ref": "#/$defs/string" },
+        "town": { "$ref": "#/$defs/string" }
       },
       "required": ["street", "houseNumber", "swissZipCode", "town"],
       "additionalProperties": false
@@ -39,5 +40,27 @@
     { "required": ["legalPerson"], "not": { "required": ["naturalPerson"] } },
     { "required": ["naturalPerson"], "not": { "required": ["legalPerson"] } }
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+
+  "$defs": {
+    "string": {
+      "type": "string",
+      "description": "Single line text"
+    },
+    "stringMultiline": {
+      "type": "string",
+      "description": "Multi line text"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "int": {
+      "type": "integer"
+    },
+    "enum": {
+      "type": "string"
+      // Wie könnten hier Platzhalter für spätere Auflistungen aus der Konfiguration vorgesehen werden?
+    }
+  }
 }
