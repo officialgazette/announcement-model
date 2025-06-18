@@ -1,0 +1,113 @@
+{
+	"terms": [
+		{
+			"key": "notice",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "constructionProject",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "constructionProjectAppealDecision",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "applicantParty",
+			"valueType": "person",
+			"description": "Add description here"
+		}, {
+			"key": "environmentalImpactReportDecision",
+			"valueType": "null",
+			"description": "Add description here"
+		}, {
+			"key": "environmentalImpactReportDecisionContent",
+			"valueType": "stringMultiline",
+			"description": "Add description here"
+		}, {
+			"key": "projectDescription",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "parcel",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "coordinates",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "buildingInsuranceNo",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "zone",
+			"valueType": "string",
+			"description": "Add description here"
+		}, {
+			"key": "decisionContent",
+			"valueType": "stringMultiline",
+			"description": "Add description here"
+		}, {
+			"key": "projectAddress",
+			"valueType": "address",
+			"description": "Add description here"
+		}, {
+			"key": "exceptions",
+			"valueType": "stringMultiline",
+			"description": "Add description here"
+		}, {
+			"key": "landowner",
+			"valueType": "person",
+			"description": "Add description here"
+		}, {
+			"key": "buildingContractor",
+			"valueType": "person",
+			"description": "Add description here"
+		}, {
+			"key": "buildingContractorDelegation",
+			"valueType": "person",
+			"description": "Add description here"
+		}, {
+			"key": "projectFramer",
+			"valueType": "person",
+			"description": "Add description here"
+		}, {
+			"key": "deadline",
+			"valueType": "date",
+			"description": "Add description here"
+		}, {
+			"key": "legalRemedy",
+			"valueType": "stingMultiline",
+			"description": "Add description here"
+		}, {
+			"key": "pointOfContact",
+			"valueType": "person",
+			"description": "Add description here"
+		}, {
+			"key": "callToCreditorsMergA",
+			"valueType": null,
+			"description": "Business Case: Call to creditors following the merger of companies limited by shares under MergA (FusG)"
+		}, {
+			"key": "callToCreditorsDemerger",
+			"valueType": null,
+			"description": "Business Case: Call to creditors following a demerger"
+		}, {
+			"key": "callToCreditorsCompanyLimitedSharesToLimitedLiabilityCompany",
+			"valueType": null,
+			"description": "Business Case: Call to creditors following the transformation of a company limited by shares into a limited liability company"
+		}, {
+			"key": "transferringCompany",
+			"valueType": "legalPerson",
+			"description": "Add description here"
+		}, {
+			"key": "acquiringCompany",
+			"valueType": "legalPerson",
+			"description": "Add description here"
+		}, {
+			"key": "publicationDate",
+			"valueType": "date",
+			"description": "Add description here"
+		}
+	]
+}
