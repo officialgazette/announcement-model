@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/person.schema.json",
+  "title": "Person",
+  "type": "object",
+  "oneOf": [
+    {
+      "title": "Legal Person",
+      "type": "object",
+      "properties": {
+        "legalPerson": {
+          "type": "object",
+          "properties": {
+            "uid": { "type": "string" },
+            "organisationName": { "type": "string" },
+            "legalForm": { "type": "string" }
+          },
+          "required": ["uid", "organisationName", "legalForm"]
+        }
+      },
+      "required": ["legalPerson"]
+    },
+    {
+      "title": "Natural Person",
+      "type": "object",
+      "properties": {
+        "naturalPerson": {
+          "type": "object",
+          "properties": {
+            "officialName": { "type": "string" },
+            "firstName": { "type": "string" }
+          },
+          "required": ["officialName", "firstName"]
+        }
+      },
+      "required": ["naturalPerson"]
+    }
+  ],
+  "definitions": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": { "type": "string" },
+        "houseNumber": { "type": "string" },
+        "swissZipCode": { "type": "string" },
+        "town": { "type": "string" }
+      },
+      "required": ["street", "houseNumber", "swissZipCode", "town"]
+    },
+    "string": {
+      "type": "string",
+      "description": "Single line text"
+    },
+    "stringMultiline": {
+      "type": "string",
+      "description": "Multi line text"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "int": {
+      "type": "integer"
+    },
+    "enum": {
+      "type": "string"
+    }
+  }
+}
