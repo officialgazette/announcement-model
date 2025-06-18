@@ -2013,7 +2013,7 @@
 			"valueType": "attachment",
 			"description": "Add description here"
 		}, {
-			"key": "transmittingCompany",
+			"key": "transferringCompany",
 			"valueType": "legalPerson",
 			"description": "Add description here"
 		}, {
@@ -2024,6 +2024,19 @@
 			"key": "callToCreditorsMergA",
 			"valueType": "null",
 			"description": "Business Case: Call to creditors following the merger of companies limited by shares under MergA (FusG)"
+		}, {
+			"key": "callToCreditorsDemerger",
+			"valueType": "null",
+			"description": "Business Case: Call to creditors following a demerger"
+		},{
+			"key": "publicationDate",
+			"valueType": "date",
+			"description": "Add description here"
+		}, {
+			"key": "callToCreditorsCompanyLimitedSharesToLimitedLiabilityCompany",
+			"valueType": "null",
+			"description": "Business Case: Call to creditors following the transformation of a company limited by shares into a limited liability company"
+"
 		}
 	]
 }
