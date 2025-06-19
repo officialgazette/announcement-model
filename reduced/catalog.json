@@ -74,7 +74,7 @@
 			"description": "Add description here"
 		}, {
 			"key": "deadline",
-			"valueType": "date",
+			"valueType": "int",
 			"description": "Add description here"
 		}, {
 			"key": "legalRemedy",
