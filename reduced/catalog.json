@@ -18,11 +18,11 @@
 			"description": "Add description here"
 		}, {
 			"key": "environmentalImpactReportDecision",
-			"valueType": "null",
+			"valueType": null,
 			"description": "Add description here"
 		}, {
 			"key": "environmentalImpactReportDecisionContent",
-			"valueType": "stringMultiline",
+			"valueType": "textarea",
 			"description": "Add description here"
 		}, {
 			"key": "projectDescription",
@@ -46,7 +46,7 @@
 			"description": "Add description here"
 		}, {
 			"key": "decisionContent",
-			"valueType": "stringMultiline",
+			"valueType": "textarea",
 			"description": "Add description here"
 		}, {
 			"key": "projectAddress",
@@ -54,7 +54,7 @@
 			"description": "Add description here"
 		}, {
 			"key": "exceptions",
-			"valueType": "stringMultiline",
+			"valueType": "textarea",
 			"description": "Add description here"
 		}, {
 			"key": "landowner",
@@ -78,7 +78,7 @@
 			"description": "Add description here"
 		}, {
 			"key": "legalRemedy",
-			"valueType": "stingMultiline",
+			"valueType": "textarea",
 			"description": "Add description here"
 		}, {
 			"key": "pointOfContact",
