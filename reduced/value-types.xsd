@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:eCH-0097="http://www.ech.ch/xmlns/eCH-0097/4" xmlns:eCH-0044="http://www.ech.ch/xmlns/eCH-0044/4" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:complexType name="person">
+		<xs:sequence>
+			<xs:choice>
+				<xs:element name="legalPerson" type="legalPerson"/>
+				<xs:element name="naturalPerson" type="naturalPerson"/>
+			</xs:choice>
+			<xs:element name="address" type="address"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="legalPerson">
+		<xs:annotation>
+			<xs:documentation>Business rule: UID is mandatory under certain circumstances. See https://amtsblattportal.ch/static/uid_en.html</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="uid"/>
+			<xs:element name="organisationName"/>
+			<xs:element name="legalForm"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="naturalPerson">
+		<xs:sequence>
+			<xs:element name="officialName"/>
+			<xs:element name="firstName"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="address">
+		<xs:sequence>
+			<xs:element name="street"/>
+			<xs:element name="houseNumber"/>
+			<xs:element name="swissZipCode"/>
+			<xs:element name="town"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="string">
+		<xs:annotation>
+			<xs:documentation>Single line text</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="stringMultiline">
+		<xs:annotation>
+			<xs:documentation>Multi line text</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="date">
+		<xs:restriction base="xs:date"/>
+	</xs:simpleType>
+	<xs:simpleType name="int">
+		<xs:restriction base="xs:int"/>
+	</xs:simpleType>
+	<xs:simpleType name="enum">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+</xs:schema>
