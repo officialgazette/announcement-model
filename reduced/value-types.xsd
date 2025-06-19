@@ -41,7 +41,7 @@
 	</xs:simpleType>
 	<xs:simpleType name="textarea">
 		<xs:annotation>
-			<xs:documentation>textarea</xs:documentation>
+			<xs:documentation>Multi line text</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string"/>
 	</xs:simpleType>
@@ -52,6 +52,9 @@
 		<xs:restriction base="xs:int"/>
 	</xs:simpleType>
 	<xs:simpleType name="enum">
+		<xs:annotation>
+			<xs:documentation>How should an Enum-Type be implemented? Eventually, it should hold a list of keys and labels</xs:documentation>
+		</xs:annotation>
 		<xs:restriction base="xs:string"/>
 	</xs:simpleType>
 </xs:schema>
