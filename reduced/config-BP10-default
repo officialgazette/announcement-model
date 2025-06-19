@@ -23,7 +23,8 @@
 					"label": {
 						"de": "Baugesuch",
 						"fr": "Demande d'autorisation de construire"
-					}
+					},
+					"rule": ""deadline" has to be greater than 0"
 				},
 				"elements": {
 					"element": [
@@ -45,7 +46,7 @@
 							},
 							"default": null,
 							"mandatory": true,
-							"multiple": false,
+							"multiple": true,
 							"isPartOfTitle": false
 						}, {
 							"key": "buildingContractorDelegation",
@@ -54,7 +55,7 @@
 								"fr": "Représentation du maître d'ouvrage"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -64,7 +65,7 @@
 								"fr": "Demande d'autorisation de construire"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -74,7 +75,7 @@
 								"fr": "Coordonnées"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -84,7 +85,7 @@
 								"fr": "Propriétaire foncier"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -94,7 +95,7 @@
 								"fr": "Publication"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -104,7 +105,7 @@
 								"fr": "Projektstandort FR"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": true,
 							"isPartOfTitle": true
 						}, {
@@ -114,7 +115,7 @@
 								"fr": "Projektbeschreibung FR"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -124,7 +125,7 @@
 								"fr": "Coordonnées"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -134,7 +135,7 @@
 								"fr": "Parcelle"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -144,7 +145,7 @@
 								"fr": "Numéro d'assurance de bâtiment"
 							},
 							"default": null,
-							"mandatory": true,
+							"mandatory": false,
 							"multiple": false,
 							"isPartOfTitle": false
 						}, {
@@ -153,28 +154,43 @@
 								"de": "zone",
 								"fr": "zone"
 							},
-							"default": "Die Pläne liegen während der Auflagefrist ..."
+							"default": null,
+							"mandatory": false,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
 							"key": "legalRemedy",
 							"label": {
 								"de": "Rechtsmittel",
 								"fr": "Rechtsmittel FR"
 							},
-							"default": "Die Pläne liegen während der Auflagefrist ..."
+							"default": {
+								"de": "Die Pläne liegen während der Auflagefrist ...",
+								"fr": "FR_Die Pläne liegen während der Auflagefrist ..."
+							},
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
 							"key": "deadline",
 							"label": {
-								"de": "Einsprachefrist",
-								"fr": "Einsprachefrist FR"
+								"de": "Einsprachefrist in Tagen",
+								"fr": "Einsprachefrist in Tagen FR"
 							},
-							"default": 20
+							"default": 20,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
 							"key": "pointOfContact",
 							"label": {
 								"de": "Kontakt",
 								"fr": "Contact"
 							},
-							"default": null
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}
 					]
 				}
@@ -184,7 +200,8 @@
 					"label": {
 						"de": "Rekursentscheid zum Baugesuch",
 						"fr": "Décision sur recours concernant la demande d'autorisation de construire"
-					}
+					},
+					"rule": ""deadline" has to be greater than 0"
 				},
 				"elements": {
 					"element": [
@@ -214,21 +231,33 @@
 								"de": "Rechtsmittel",
 								"fr": "Rechtsmittel FR"
 							},
-							"default": "Die Pläne liegen während der Auflagefrist ..."
+							"default": {
+								"de": "Die Pläne liegen während der Auflagefrist ...",
+								"fr": "FR_Die Pläne liegen während der Auflagefrist ..."
+							},
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
 							"key": "deadline",
 							"label": {
-								"de": "Einsprachefrist",
-								"fr": "Einsprachefrist FR"
+								"de": "Einsprachefrist in Tagen",
+								"fr": "Einsprachefrist in Tagen FR"
 							},
-							"default": 20
+							"default": 30,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
 							"key": "pointOfContact",
 							"label": {
 								"de": "Kontakt",
 								"fr": "Contact"
 							},
-							"default": null
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}
 					]
 				}
@@ -238,7 +267,8 @@
 					"label": {
 						"de": "Entscheid zum Umweltverträglichkeitsbericht",
 						"fr": "Décision sur rapport d'impact sur l'environnement"
-					}
+					},
+					"rule": ""deadline" has to be greater than 0"
 				},
 				"elements": {
 					"element": [
@@ -278,21 +308,33 @@
 								"de": "Rechtsmittel",
 								"fr": "Rechtsmittel FR"
 							},
-							"default": "Die Pläne liegen während der Auflagefrist ..."
+							"default": {
+								"de": "Die Pläne liegen während der Auflagefrist ...",
+								"fr": "FR_Die Pläne liegen während der Auflagefrist ..."
+							},
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
 							"key": "deadline",
 							"label": {
 								"de": "Einsprachefrist",
 								"fr": "Einsprachefrist FR"
 							},
-							"default": 20
+							"default": 30,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}, {
 							"key": "pointOfContact",
 							"label": {
 								"de": "Kontakt",
 								"fr": "Contact"
 							},
-							"default": null
+							"default": null,
+							"mandatory": true,
+							"multiple": false,
+							"isPartOfTitle": false
 						}
 					]
 				}
