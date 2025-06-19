@@ -39,9 +39,9 @@
 		</xs:annotation>
 		<xs:restriction base="xs:string"/>
 	</xs:simpleType>
-	<xs:simpleType name="stringMultiline">
+	<xs:simpleType name="textarea">
 		<xs:annotation>
-			<xs:documentation>Multi line text</xs:documentation>
+			<xs:documentation>textarea</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string"/>
 	</xs:simpleType>
