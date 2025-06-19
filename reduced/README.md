@@ -1,6 +1,15 @@
 # Announcement Model
 ## value-types.xsd ##
 Describes the statically implemented value types. Created in a reduced version for prototyping purposes.
+
+```mermaid
+
+
+%%{
+  init: {
+    'theme': 'neutral'
+  }
+}%%
 erDiagram
 
   Announcement ||--o{ BusinessCase : "uses"
@@ -57,3 +66,4 @@ erDiagram
     string label_it
     string label_en
   }
+```
