@@ -59,7 +59,7 @@ Model --generates-->DynamicArtifacts
 
 ```
 
-## The Artifacts in this repository ##
+## The Artefacts in this repository ##
 
 ```mermaid
 
@@ -97,7 +97,7 @@ schema["schema
 
 (XSD/JSON)"]:2
 
-config --"contains"--> standard
+terms --"contains"--> standard
 config --"contains"--> terms
 config --"generates"--> schema
 ```
