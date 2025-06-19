@@ -25,7 +25,8 @@
 						"fr": "Appel aux créanciers suite à une fusion selon la LFus",
 						"it": "Grida ai creditori in seguito a fusione secondo LFus",
 						"en": "Call to creditors following the merger of companies limited by shares under MergA"
-					}
+					},
+					"rule": "if legalForm of the Companies is 0106/0107/0108, UID is mandatory. For interpretation of the legalForm see https://www.ech.ch/sites/default/files/dosvers/hauptdokument/STAN_d_REP_2018-01-17_eCH-0097_V3.0_Datenstandard%20Unternehmensidentifikation.pdf"
 				},
 				"elements": {
 					"element": [
@@ -108,7 +109,10 @@
 						"fr": "Appel aux créanciers suite à une scission",
 						"it": "Grida ai creditori in seguito a scissione",
 						"en": "Call to creditors following a demerger"
-					}
+					},
+					"rule": [
+						"if legalForm of the Companies is 0106/0107/0108, UID is mandatory. For interpretation of the legalForm see https://www.ech.ch/sites/default/files/dosvers/hauptdokument/STAN_d_REP_2018-01-17_eCH-0097_V3.0_Datenstandard%20Unternehmensidentifikation.pdf", "A demerged company can be split in more than one new company. Therefore 'aquiringCompany' --> multiple has to be true"
+					]
 				},
 				"elements": {
 					"element": [
@@ -191,7 +195,8 @@
 						"fr": "Appel aux créanciers suite à une scission",
 						"it": "Grida ai creditori in seguito a scissione",
 						"en": "Call to creditors following the transformation of a company limited by shares into a limited liability company"
-					}
+					},
+					"rule": "legalForm has to be 0107 (Gesellschaft mit beschränkter Haftung)"
 				},
 				"elements": {
 					"element": [
