@@ -80,7 +80,7 @@ flowchart TD
     A[get legal person] --> B{no UID}
     B -- true --> C[legal form mandatory]
     C --> D{legal form}
-    D -- "0106 / 0107 / 0108" --> E[UID mandatory / 'no UID' must be false]
+    D -- "0106 / 0107 / 0108" --> E[UID mandatory]
     D -- "Other legal forms (eCH-0097)" --> F[UID not mandatory]
     B -- false --> G[legal form not mandatory]
     G --> H[UID mandatory]
