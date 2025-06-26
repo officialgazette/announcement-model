@@ -1,6 +1,6 @@
 {
 	"configuration": {
-		"announcementType": "BP10",
+		"announcementType": "BP101",
 		"gazette": "ePublication (default)",
 		"description": "Beschreibung des Meldungstyps",
 		"themes": "construction",
