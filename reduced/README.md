@@ -20,3 +20,6 @@ Gazette: This element is no longer necessary for the following reasons:
 - Example: There is a "Construction publication" announcement type. Editors can use and configure this. There is not a separate announcement type for a construcion publication per editor.
 
 Configuration of value types: A mechanism is needed to configure certain aspects (restrictions and validations) of the value types when used in a specific announcement type.
+The value type of a term element is defined in the catalog file as before. However, the configuration of the value type is made in the config file using the element "valueTypeConfig". The parameters for the configuration must be processed in the statically coded value type. Some possible parameterizations were used as examples in the sample configurations.
+
+Enumerations: The values of the enumerations are also added as a configuration in the announcement type (s. example BP).
