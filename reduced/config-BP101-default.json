@@ -2,21 +2,17 @@
 	"announcementType": "BP101",
 	"name": {
 		"de": "Baupublikation",
-		"fr": "FR_Baupublikation",
-		"it": "IT_Baupublikation",
-		"en": "EN_Baupublikation"
+		"fr": "FR_Baupublikation"
 	},
 	"description": {
-		"de": "call to creditors (Schuldenrufe): A call to creditors is a public request under Swiss law that is addressed to the creditors of a company that is being dissolved or is in debt restructuring moratorium. The aim is to inform all creditors so that they can register their claims before the company's assets are distributed or a debt restructuring agreement is concluded. ",
-		"fr": "...",
-		"it": "...",
-		"en": "call to creditors (Schuldenrufe): A call to creditors is a public request under Swiss law that is addressed to the creditors of a company that is being dissolved or is in debt restructuring moratorium. The aim is to inform all creditors so that they can register their claims before the company's assets are distributed or a debt restructuring agreement is concluded. "
+		"de": "Informiert die Öffentlichkeit über ein geplantes Bauvorhaben.",
+		"fr": "FR_Informiert die Öffentlichkeit über ein geplantes Bauvorhaben."
 	},
 	"themes": [
 		"CONST", "PLN"
 	],
 	"languages": [
-		"de", "fr", "it", "en"
+		"de", "fr", ""
 	],
 	"publicityPeriod": 24,
 	"archive": true,
