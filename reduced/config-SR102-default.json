@@ -44,7 +44,7 @@
 				"en": "Transferrring organisation"
 			},
 			"valueTypeConfig": {
-				"uidMandatoryForLegalForms": [
+				"legalFormEQ": [
 					"0106"
 				]
 			},
@@ -61,7 +61,7 @@
 				"en": "Acquiring organisation "
 			},
 			"valueTypeConfig": {
-				"uidMandatoryForLegalForms": [
+				"legalFormEQ": [
 					"0107"
 				]
 			},
