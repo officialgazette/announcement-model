@@ -6,6 +6,8 @@ This directory contains the minimal artefacts that are intended for creating the
 26.06.2025
 
 **Business Case:** Currently, it is not intended to offer several business cases per announcement type. Instead, there is a separate announcement type for each specialization of an announcement. This simplifies the configuration file.
+For this reason, the planned debt call for the prototype with formerly three business cases was split into two separate announcement types. 
+It should be possible to model the core functionalities in the sense of a prototype with these three announcement types.
 
 **Name:** A new multilingual element “name” has been added.
 
