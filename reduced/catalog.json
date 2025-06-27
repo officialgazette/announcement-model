@@ -108,6 +108,10 @@
 			"key": "publicationDate",
 			"valueType": "date",
 			"description": "Add description here"
+		}, {
+			"key": "publicationArea",
+			"valueType": "enum",
+			"description": "Add description here"
 		}
 	]
 }
