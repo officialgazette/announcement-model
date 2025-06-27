@@ -19,4 +19,4 @@ Gazette: This element is no longer necessary for the following reasons:
   - Editor-specific elements must be defined. E.g. price for primary publication.
 - Example: There is a "Construction publication" announcement type. Editors can use and configure this. There is not a separate announcement type for a construcion publication per editor.
 
-Configuration ov value types: A mechanism is needed to configure certain aspects (restrictions and validations) of the value types when used in a specific announcement type.
+Configuration of value types: A mechanism is needed to configure certain aspects (restrictions and validations) of the value types when used in a specific announcement type.
