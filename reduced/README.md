@@ -5,7 +5,7 @@ This directory contains the minimal artefacts that are intended for creating the
 ## Changelog ##
 26.06.2025
 
-Business Case: Currently, it is not intended to offer several business cases per announcement type. Instead, there is a separate announcement type for each specialization of an announcement. This simplifies the configuration file.
+**Business Case:** Currently, it is not intended to offer several business cases per announcement type. Instead, there is a separate announcement type for each specialization of an announcement. This simplifies the configuration file.
 
 **Name:** A new multilingual element “name” has been added.
 
