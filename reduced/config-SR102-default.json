@@ -13,7 +13,7 @@
 		"en": "call to creditors (Schuldenrufe): A call to creditors is a public request under Swiss law that is addressed to the creditors of a company that is being dissolved or is in debt restructuring moratorium. The aim is to inform all creditors so that they can register their claims before the company's assets are distributed or a debt restructuring agreement is concluded. "
 	},
 	"themes": [
-		"DEBT-BRC", "CMP"
+		"CallsToCreditors"
 	],
 	"languages": [
 		"de", "fr", "it", "en"
