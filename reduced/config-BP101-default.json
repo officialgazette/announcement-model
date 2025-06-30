@@ -9,7 +9,7 @@
 		"fr": "FR_Informiert die Öffentlichkeit über ein geplantes Bauvorhaben."
 	},
 	"themes": [
-		"CONST", "PLN"
+		"building", "planning"
 	],
 	"languages": [
 		"de", "fr", ""
