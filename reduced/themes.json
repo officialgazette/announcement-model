@@ -1,0 +1,29 @@
+{
+	"theme": [
+		{
+			"key": "building",
+			"label": {
+				"de": "Bauprojekte",
+				"fr": "Projets de construction",
+				"it": "Progetti edilizi",
+				"en": "Building projects"
+			}
+		}, {
+			"key": "CallsToCreditors",
+			"label": {
+				"de": "Gesellschaftsrechtliche Schuldenrufe",
+				"fr": "Appel aux créanciers",
+				"it": "Grida ai creditori",
+				"en": "Call to creditors"
+			}
+		}, {
+			"key": "planning",
+			"label": {
+				"de": "Raumplanung",
+				"fr": "Aménagement du territoire",
+				"it": "Pianificazione del territorio",
+				"en": "Spatial planning"
+			}
+		}
+	]
+}
