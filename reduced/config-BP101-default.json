@@ -18,7 +18,7 @@
 	"archive": true,
 	"legalBasis": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_35",
 	"organisationType": [
-		"COM-ADM", "CNT-ADM"
+		"OT01", "OT02"
 	],
 	"livePublication": false,
 	"publicationDay": [
