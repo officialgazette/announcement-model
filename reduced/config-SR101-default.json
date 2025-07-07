@@ -22,7 +22,7 @@
 	"archive": true,
 	"legalBasis": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_35",
 	"organisationType": [
-		"CRT", "CNT-ADM"
+		"OT03"
 	],
 	"livePublication": false,
 	"publicationDay": [
